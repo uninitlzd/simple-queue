@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+require('./laravel.js');
 
 window.Vue = require('vue');
 
