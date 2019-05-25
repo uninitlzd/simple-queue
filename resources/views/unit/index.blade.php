@@ -1,4 +1,4 @@
-@extends('dashboard.index')
+@extends('layouts.main')
 @section('panel-content')
     <div class="w-100 d-flex">
         <h3>Poli</h3>
