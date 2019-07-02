@@ -2,37 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c8f44a-6cec-4d35-a85a-d9fc59af0733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DoctorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PatientController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Doctor/StoreRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Doctor/UpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Patient/StoreRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Patient/UpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/doctor/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/doctor/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/doctor/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/patient/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/patient/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/patient/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/bootstrap-4.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/default.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/semantic-ui.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-bootstrap-4.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/antri-poli.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/antri-poli.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Unit/UpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Unit/UpdateRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Doctor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Doctor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/unit/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unit/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/unit/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unit/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/unit/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unit/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/NotORM.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/NotORM/Cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/NotORM/Literal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/NotORM/MultiResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/NotORM/Result.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/NotORM/Row.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/NotORM/Structure.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/1-basic.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/10-update.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/11-pairs.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/12-via.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/13-join.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/14-where.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/15-multiple.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/16-offset.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/17-transaction.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/18-union.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/19-array-offset.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/2-detail.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/20-extended.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/21-simple-union.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/22-insert-update.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/23-prefix.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/24-lock.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/25-backjoin.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/26-in.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/27-in-multi.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/28-literal.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/29-row-set.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/3-search-order.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/30-rowclass.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/31-datetime.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/32-in-null.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/33-structure.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/34-update-primary.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/35-multiresult-loop.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/36-and.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/37-or.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/38-parens.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/4-findone.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/5-tostring.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/6-aggregation.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/7-subquery.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/8-discovery.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/9-cache.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/connect.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/run-tests.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/tests/software.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notORM/todo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/notorm-master (1).zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +68,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6822612">
+    <splitter split-orientation="horizontal" split-proportion="0.18810916">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="DoctorController.php" pinned="false" current-in-tab="false">
@@ -100,7 +123,7 @@
             <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PatientController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="17">
-                  <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+                  <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
                   <folding>
                     <element signature="e#40#53#0#PHP" expanded="true" />
                   </folding>
@@ -144,59 +167,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DoctorController.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DoctorController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1088">
-                  <caret line="64" column="36" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#40#82#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/unit/index.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="60" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="60" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/doctor/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
                   <caret line="7" column="10" selection-end-line="59" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UpdateRequest.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Http/Requests/Unit/UpdateRequest.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UpdateRequest.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Http/Requests/Doctor/UpdateRequest.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" column="10" selection-end-line="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UpdateRequest.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Http/Requests/Patient/UpdateRequest.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -210,7 +185,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
@@ -219,17 +194,44 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PatientQueue.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Models/PatientQueue.php">
+          <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/routes/web.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="111">
+                  <caret line="38" column="20" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ForgotPasswordController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file leaf-file-name="Doctor.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Models/Doctor.php">
+          <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="ResetPasswordController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="VerificationController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/routes/api.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="10" />
-                </state>
+                <state relative-caret-position="-130" />
               </provider>
             </entry>
           </file>
@@ -246,6 +248,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -374,9 +381,14 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -417,6 +429,45 @@
               <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+              <item name="Doctor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+              <item name="Patient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+              <item name="Unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -438,55 +489,12 @@
             <path>
               <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="doctor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="patient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumah-sakit-2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rumah-sakit-2" type="b2602c69:ProjectViewProjectNode" />
@@ -503,7 +511,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="side&#9;FILE&#9;file://C:/laragon/www/rumah-sakit-2/resources/views/layouts/sidebar.blade.php&#10;web&#9;FILE&#9;file://C:/laragon/www/rumah-sakit-2/routes/web.php&#10;pa&#9;FILE&#9;file://C:/laragon/www/rumah-sakit-2/app/Http/Controllers/PatientsController.php&#10;pat&#9;null&#9;null&#10;patien&#9;FILE&#9;file://C:/laragon/www/rumah-sakit-2/app/Http/Controllers/PatientController.php&#10;we&#9;FILE&#9;file://C:/laragon/www/rumah-sakit-2/routes/web.php&#10;Uni&#9;FILE&#9;file://C:/laragon/www/rumah-sakit-2/app/Models/Unit.php&#10;si&#9;FILE&#9;file://C:/laragon/www/rumah-sakit-2/resources/views/layouts/sidebar.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/XAMPP/htdocs/web-antrian" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -543,16 +551,22 @@
       <workItem from="1557024033784" duration="6186000" />
       <workItem from="1557883968258" duration="619000" />
       <workItem from="1558351130658" duration="598000" />
+      <workItem from="1558760974233" duration="1320000" />
+      <workItem from="1561462196564" duration="213000" />
+      <workItem from="1561944964326" duration="1505000" />
+      <workItem from="1561959165511" duration="1903000" />
+      <workItem from="1562021855477" duration="2017000" />
+      <workItem from="1562056634368" duration="1259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32905000" />
+    <option name="totallyTimeSpent" value="41122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -561,7 +575,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290938" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41971382" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4620462" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -581,48 +595,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_130623_create_patient_queues_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_125816_create_units_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_130231_create_doctors_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_130623_create_patient_queues_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_130412_create_unit_schedules_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -765,17 +737,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PatientController.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DoctorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="e#40#82#0#PHP" expanded="true" />
           </folding>
@@ -863,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/patient/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -880,13 +838,47 @@
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PatientController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>
